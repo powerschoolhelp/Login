@@ -1,0 +1,136 @@
+﻿@font-face {
+  font-family: "Open Sans";
+  src: url('https://esp.coppellisd.com/eSchoolPLUS/Content/fonts/OpenSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@media (min-width: 767.99px) {
+  .sg-login-container {
+    padding: 0px 13px;
+  }
+}
+@media (min-width: 992px) {
+  .sg-login-container {
+    padding: 0px 86px;
+  }
+}
+@media (min-width: 1200px) {
+  .sg-login-container {
+    padding: 0px 57px;
+  }
+}
+@media (min-width: 1560px) {
+  .sg-login-container {
+    padding: 0px 18px;
+  }
+}
+.sg-login {
+  width: 100%;
+  font-family: "Open Sans";
+  color: #333333;
+  text-align: center;
+}
+.sg-login .sg-login-separator-6 {
+  height: 6px;
+}
+.sg-login .sg-login-separator-7 {
+  height: 7px;
+}
+.sg-login .sg-login-separator-15 {
+  height: 15px;
+}
+.sg-login .sg-login-separator-20 {
+  height: 20px;
+}
+.sg-login .sg-login-separator-30 {
+  height: 30px;
+}
+.sg-login .sg-login-separator-37 {
+  height: 37px;
+}
+.sg-login .sg-login-separator-40 {
+  height: 40px;
+}
+.sg-login .sg-login-separator-100 {
+  height: 100px;
+}
+.sg-login .sg-login-link,
+.sg-login .sg-login-link:hover,
+.sg-login .sg-login-link:visited {
+  color: #0066A5 !important;
+}
+.sg-login .sg-login-welcome {
+  font-size: 40px;
+  line-height: 55px;
+}
+.sg-login .sg-login-app-logo {
+  height: 60px;
+  width: 450px;
+  background-size: auto 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sg-login .sg-login-app-logo-efp {
+  background-image: url('https://esp.coppellisd.com/eSchoolPLUS/Media/SunGard/Common/Logo_Unified-Administration-eFinancePlus.svg');
+}
+.sg-login .sg-login-app-logo-esp {
+  background-image: url('https://esp.coppellisd.com/eSchoolPLUS/Media/SunGard/Common/Logo_eSchoolPlus.svg');
+}
+.sg-login .sg-login-app-logo-hac {
+  background-image: url('https://esp.coppellisd.com/eSchoolPLUS/Media/SunGard/Common/Logo_Home-Access-Center-Centered.svg');
+}
+.sg-login .sg-login-app-logo-sg {
+  background-image: url('https://esp.coppellisd.com/eSchoolPLUS/Media/SunGard/Common/Logo_Style-Guide.svg');
+}
+.sg-login .sg-login-app-logo-tac {
+  background-image: url('https://esp.coppellisd.com/eSchoolPLUS/Media/SunGard/Common/Logo_Teacher-Access-Center.svg');
+}
+.sg-login .sg-login-text {
+  font-size: 16px;
+  color: #666666;
+}
+.sg-login .sg-login-text-single-line {
+  line-height: 1;
+}
+.sg-login .sg-login-text-left {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+.sg-login .sg-login-labels {
+  font-size: 16px;
+  line-height: 1;
+  color: #666666;
+  padding-left: 10px;
+  text-align: left;
+}
+.sg-login .sg-login-input {
+  line-height: 1;
+}
+.sg-login .sg-login-input input,
+.sg-login .sg-login-input select {
+  width: 100%;
+  height: 42px;
+  font-size: 18px;
+  line-height: 1;
+  color: #333333;
+  padding: 10px;
+}
+.sg-login .sg-login-input select {
+  border-radius: 5px;
+}
+.sg-login .sg-login-sign-in button {
+  width: 100%;
+  font-size: 18px;
+  line-height: 1;
+  padding: 12px;
+  color: #ffffff;
+  background-color: #00427C;
+  border-radius: 5px;
+  background-image: none;
+}
+.sg-login .sg-login-copyright {
+  font-size: 12px;
+  color: #666666;
+  margin: 0px -80px;
+}

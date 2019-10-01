@@ -1,0 +1,60 @@
+﻿.sg-table
+{
+    display: table;
+    text-align: left;
+}
+
+.sg-full-width
+{
+    width: 100%;
+}
+
+/* Formats a DIV to display like a row and aligns the label and input fields on the screen */
+.sg-row
+{
+    display: table-row;
+}
+
+.sg-editor-caption,
+.sg-editor-val-sum
+{
+    display: table-cell;
+    padding: 10px;
+}
+
+.sg-editor-label, .sg-editor-field
+{
+    display: table-cell;
+    padding: 2px 10px 2px 10px;
+}
+
+.sg-editor-label
+{
+    font-weight: bold;
+}
+
+.sg-editor-label label,
+.sg-editor-field input[type=text],
+.sg-editor-field input[type=password],
+.sg-editor-field input[type=checkbox],
+.sg-editor-field select,
+.sg-editor-field span.sg-combobox-wrapper
+{
+    vertical-align: middle;
+}
+
+.sg-editor-buttons
+{
+    display: table-cell;
+    text-align: right;
+    padding: 10px;
+}
+
+.sg-caption
+{
+    font-size: 70%;
+    font-family: Tahoma, Helvetica, Arial, sans-serif
+}
+
+.sg-hide-overflow { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: inline-block; }
+.sg-no-break { white-space: nowrap; }

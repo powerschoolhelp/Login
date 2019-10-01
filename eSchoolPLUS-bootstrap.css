@@ -1,0 +1,174 @@
+﻿.sg-bold-radio-label .radio label,
+.sg-bold-radio-label .radio-inline,
+.sg-bold-checkbox-label .checkbox label,
+.sg-bold-checkbox-label .checkbox-inline {
+  font-weight: bold;
+}
+label.disabled > a,
+label.disabled > a:hover,
+label.disabled > a:focus {
+  color: #333333;
+  text-decoration: none;
+  cursor: default;
+}
+.sg-summer-icon {
+  background-image: url('../Media/Themes/Base/Banner/summer-school-lg.png');
+  height: 22px;
+  width: 22px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.nav > li > a.sg-toolbar-prior-year,
+.nav .open > a.sg-toolbar-prior-year {
+  background-color: #cc3366;
+  color: #ffffff;
+}
+.nav > li > a.sg-toolbar-next-year,
+.nav .open > a.sg-toolbar-next-year {
+  background-color: #009900;
+  color: #ffffff;
+}
+.nav > li > a.sg-toolbar-prior-year,
+.nav .open > a.sg-toolbar-prior-year,
+.nav > li > a.sg-toolbar-next-year,
+.nav .open > a.sg-toolbar-next-year {
+  border-radius: 0;
+}
+.nav > li > a.sg-toolbar-prior-year:hover,
+.nav .open > a.sg-toolbar-prior-year:hover,
+.nav > li > a.sg-toolbar-next-year:hover,
+.nav .open > a.sg-toolbar-next-year:hover,
+.nav > li > a.sg-toolbar-prior-year:focus,
+.nav .open > a.sg-toolbar-prior-year:focus,
+.nav > li > a.sg-toolbar-next-year:focus,
+.nav .open > a.sg-toolbar-next-year:focus {
+  background-image: none;
+}
+.nav > li > a.sg-toolbar-current-year,
+.nav .open > a.sg-toolbar-current-year {
+  border-radius: 0;
+  background-color: #00427C;
+  color: #ffffff;
+}
+.nav > li > a.sg-toolbar-current-year:hover,
+.nav .open > a.sg-toolbar-current-year:hover,
+.nav > li > a.sg-toolbar-current-year:focus,
+.nav .open > a.sg-toolbar-current-year:focus {
+  background-image: none;
+}
+.nav > li > a > .sg-summer-icon,
+.nav .open > a > .sg-summer-icon {
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+.sg-nav-search {
+  min-width: 255px;
+  top: 2px;
+}
+@media (min-width: 767.99px) and (max-width: 991.99px) {
+  .sg-nav-search {
+    min-width: 221px;
+    width: 221px;
+  }
+  .sg-ellipsis-sm {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+  }
+  #sg-task-and-report-button {
+    max-width: 166px;
+  }
+  #sg-toolbar-environment .dropdown-toggle {
+    line-height: 1;
+  }
+  #sg-toolbar-environment-school-year {
+    max-width: 81px;
+    margin-top: 2px;
+    margin-bottom: -2px;
+  }
+}
+.sg-panel-1.panel-primary.panel > .panel-heading.sg-summer-school {
+  color: #333333;
+  background-color: #ffcc66;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3ffffff', endColorstr='#00ffffff', GradientType=0);
+}
+.sg-panel-1.panel-primary.panel > .panel-heading.sg-summer-school .btn.sg-btn-icon {
+  color: #000000;
+}
+.sg-panel-1.panel-primary.panel > .panel-heading.sg-summer-school .btn.sg-btn-icon .fa-inverse {
+  color: #ffffff;
+}
+.sg-panel-1.panel-primary.panel > .panel-heading.sg-prior-year {
+  background-color: #cc3366;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3ffffff', endColorstr='#00ffffff', GradientType=0);
+}
+.sg-panel-1.panel-primary.panel > .panel-heading.sg-next-year {
+  background-color: #009900;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3ffffff', endColorstr='#00ffffff', GradientType=0);
+}
+.sg-panel-1.panel-primary.panel > .panel-heading .sg-summer-icon {
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+.sg-esp-detail-editor {
+  background-color: #d9d9d9;
+  padding: 7px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.sg-esp-detail-editor .panel.sg-panel-2 {
+  margin-bottom: 7px;
+}
+.expanded-chart-dialog {
+  position: absolute;
+  z-index: 1050;
+}
+.expanded-chart-dialog .layout-container-widget {
+  -webkit-transition: width 0.4s linear, margin 0.4s linear;
+  -moz-transition: width 0.4s linear, margin 0.4s linear;
+  -o-transition: width 0.4s linear, margin 0.4s linear;
+  transition: width 0.4s linear, margin 0.4s linear;
+}
+.highcharts-container {
+  -webkit-transition: width 0.4s linear, margin 0.4s linear, height 0.4s linear;
+  -moz-transition: width 0.4s linear, margin 0.4s linear, height 0.4s linear;
+  -o-transition: width 0.4s linear, margin 0.4s linear, height 0.4s linear;
+  transition: width 0.4s linear, margin 0.4s linear, height 0.4s linear;
+}
+.expanded-chart-dialog-background {
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: 1040;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.dynamic-layout.edit-mode button[name$="option-expandview"],
+#add-widget-preview button[name$="option-expandview"] {
+  display: none;
+}
+.sg-debug-feature {
+  font-weight: bold;
+}
+.sg-debug-feature.sg-debug-feature-on {
+  color: green;
+}
+.sg-debug-feature.sg-debug-feature-off {
+  color: red;
+}
